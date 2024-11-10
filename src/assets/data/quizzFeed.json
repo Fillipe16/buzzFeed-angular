@@ -1,0 +1,51 @@
+{
+  "perguntaCentral": "Você é um herói, anti-herói, vilão ou neutro?",
+  "perguntas": [
+    {
+      "pergunta": "Você encontra alguém pedindo ajuda no meio da rua. O que você faz?",
+      "respostas": [
+        { "texto": "Ajudo imediatamente.", "categoria": "heroi", "pontos": 10, "id":0},
+        { "texto": "Penso nos prós e contras antes de decidir.", "categoria": "anti-heroi", "pontos": 5, "id":1 },
+        { "texto": "Passo direto, pois não é problema meu.", "categoria": "vilao", "pontos": 3, "id":2 },
+        { "texto": "Ignoro, pois não me interessa.", "categoria": "neutro", "pontos": 1, "id":3 }
+      ]
+    },
+    {
+      "pergunta": "Qual é o seu objetivo de vida?",
+      "respostas": [
+        { "texto": "Proteger aqueles que amo.", "categoria": "heroi", "pontos": 10, "id":0 },
+        { "texto": "Fazer justiça do meu jeito.", "categoria": "anti-heroi", "pontos": 5, "id":1 },
+        { "texto": "Conseguir o que quero, independente dos meios.", "categoria": "vilao", "pontos": 3, "id":2 },
+        { "texto": "Viver sem me envolver demais.", "categoria": "neutro", "pontos": 1, "id":3 }
+      ]
+    },
+    {
+      "pergunta": "Se você ganhasse poderes, como os usaria?",
+      "respostas": [
+        { "texto": "Para ajudar a todos.", "categoria": "heroi", "pontos": 10, "id":0 },
+        { "texto": "Para eliminar ameaças.", "categoria": "anti-heroi", "pontos": 5, "id":1 },
+        { "texto": "Para conquistar o que eu desejo.", "categoria": "vilao", "pontos": 3, "id":2 },
+        { "texto": "Usaria apenas quando fosse conveniente para mim.", "categoria": "neutro", "pontos": 1, "id":3 }
+      ]
+    },
+    {
+      "pergunta": "Como você lida com erros do passado?",
+      "respostas": [
+        { "texto": "Tento melhorar para nunca mais errar.", "categoria": "heroi", "pontos": 10, "id":0 },
+        { "texto": "Aprendo, mas não me prendo ao que passou.", "categoria": "anti-heroi", "pontos": 5, "id":1 },
+        { "texto": "Faço o que for necessário para que nunca se repita.", "categoria": "vilao", "pontos": 3, "id":2 },
+        { "texto": "Ignoro, o que passou não importa.", "categoria": "neutro", "pontos": 3, "id":3 }
+      ]
+    },
+    {
+      "pergunta": "Você encontra um tesouro perdido. O que faz?",
+      "respostas": [
+        { "texto": "Uso para construir um futuro melhor.", "categoria": "heroi", "pontos": 10, "id":0 },
+        { "texto": "Uso para equilibrar o que considero justo.", "categoria": "anti-heroi", "pontos": 5, "id":1 },
+        { "texto": "Uso para meu próprio benefício.", "categoria": "vilao", "pontos": 3, "id":2 },
+        { "texto": "Deixo lá, não faz diferença para mim.", "categoria": "neutro", "pontos": 1, "id":3 }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="title">
+            <h1>BuzzFeed</h1>
+        </div>   
+    </div>
+    <div class="row">
+        <div class="subtitle">
+            <h2>{{perguntaCentral}}</h2>
+        </div>
+    </div>
+    <div *ngIf="indexQuestion<perguntas.length; else resultadoTemplate">
+        <div class="row" style="margin-bottom: 2%;">
+            <app-question [pergunta]="perguntas[indexQuestion].pergunta"></app-question>
+        </div>
+        <div class="row"  *ngFor="let rowIndex of listaRows">
+            <div class="col-md-6" *ngFor="let question of perguntas[indexQuestion].respostas.slice(rowIndex*2,rowIndex*2+2)">
+                <app-answers (isPerguntaRespondida)="changeQuestion($event)" 
+                             [resposta]="question"
+                             [questionIndex]="indexQuestion">
+                </app-answers>
+            </div>
+        </div>
+    </div>
+
+<ng-template #resultadoTemplate>
+    <div class="row">
+        <div class="resultado">
+            <h3>O seu Resultado é:</h3>
+            <h4> Você muito provavelmente seria um {{getResult()}}</h4>
+        </div>
+    </div>
+</ng-template>
+    
+

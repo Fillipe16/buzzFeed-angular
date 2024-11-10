@@ -1,0 +1,17 @@
+div.pergunta {
+    width: 80%;
+    height: 250px;
+    background-color: #5758BB;
+    color: white;
+    font-size: xx-large;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 1%
+}
+
+div.pergunta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
